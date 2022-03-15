@@ -1,4 +1,4 @@
-const { CreateAndSendEMailFactory } = require("./factories/controllers/create-and-send-email");
+const { CreateAndSendEMailFactory } = require("./src/factories/controllers/create-and-send-email");
 
 /**
  * Triggered from a message on a Cloud Pub/Sub topic.
